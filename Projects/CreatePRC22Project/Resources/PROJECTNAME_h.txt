@@ -1,0 +1,9 @@
+/*
+	Main PROJECTNAME header file
+*/
+
+//Include Guard
+#ifndef PROJECTNAME_HEADER
+#define PROJECTNAME_HEADER
+
+#endif

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h" />
+    <ClInclude Include="parameter.h" />
+    <ClInclude Include="parameter_test.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.c" />
+    <ClCompile Include="parameter.c" />
+    <ClCompile Include="parameter_test.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BUILD.BAT" />
+    <None Include="CLEAN.BAT" />
+    <None Include="CYGWIN.BAT" />
+    <None Include="DEBUG.BAT" />
+    <None Include="REBUILD.BAT" />
+    <None Include="RUN.BAT" />
+    <None Include="RUNTEST.BAT" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{37A42495-D54F-4BA1-9C69-788A3AFFD401}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>parameter</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <NMakeBuildCommandLine>BUILD.BAT</NMakeBuildCommandLine>
+    <IncludePath>$(IncludePath);$(CYGWIN64)\usr\include;$(CYGWIN64)\prc22libs\Unity;$(CYGWIN64)\prc22libs\ResourceDetector</IncludePath>
+    <NMakeReBuildCommandLine>REBUILD.BAT</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>CLEAN.BAT</NMakeCleanCommandLine>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

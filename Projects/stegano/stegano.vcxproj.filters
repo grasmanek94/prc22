@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="util">
+      <UniqueIdentifier>{76f63abe-dacf-423a-85f6-56b679a2a892}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{fca16c96-6b2d-4420-8213-b4384f5c0954}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\code">
+      <UniqueIdentifier>{52ba8784-a3f3-4029-9790-0507d888cfb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\test">
+      <UniqueIdentifier>{0c45b841-c64c-41b2-b528-3199a3bbdbc1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CLEAN.BAT">
+      <Filter>util</Filter>
+    </None>
+    <None Include="CYGWIN.BAT">
+      <Filter>util</Filter>
+    </None>
+    <None Include="DEBUG.BAT">
+      <Filter>util</Filter>
+    </None>
+    <None Include="REBUILD.BAT">
+      <Filter>util</Filter>
+    </None>
+    <None Include="RUN.BAT">
+      <Filter>util</Filter>
+    </None>
+    <None Include="BUILD.BAT">
+      <Filter>util</Filter>
+    </None>
+    <None Include="RUNTEST.BAT">
+      <Filter>util</Filter>
+    </None>
+    <None Include="test\test.sh">
+      <Filter>source\test</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="code\main.c">
+      <Filter>source\code</Filter>
+    </ClCompile>
+    <ClCompile Include="code\stegano.c">
+      <Filter>source\code</Filter>
+    </ClCompile>
+    <ClCompile Include="code\bit.c">
+      <Filter>source\code</Filter>
+    </ClCompile>
+    <ClCompile Include="code\header.c">
+      <Filter>source\code</Filter>
+    </ClCompile>
+    <ClCompile Include="test\header_test.c">
+      <Filter>source\test</Filter>
+    </ClCompile>
+    <ClCompile Include="test\stegano_test.c">
+      <Filter>source\test</Filter>
+    </ClCompile>
+    <ClCompile Include="test\bit_test.c">
+      <Filter>source\test</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="code\stegano.h">
+      <Filter>source\code</Filter>
+    </ClInclude>
+    <ClInclude Include="code\bit.h">
+      <Filter>source\code</Filter>
+    </ClInclude>
+    <ClInclude Include="code\bmp.h">
+      <Filter>source\code</Filter>
+    </ClInclude>
+    <ClInclude Include="code\header.h">
+      <Filter>source\code</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="test\input.txt">
+      <Filter>source\test</Filter>
+    </Text>
+    <Text Include="test\correct.txt">
+      <Filter>source\test</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

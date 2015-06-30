@@ -1,0 +1,1 @@
+stegano.exe < input.txt > output.txt

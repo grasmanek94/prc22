@@ -1,0 +1,7 @@
+COPY /Y "%~dp0\code\bit.c" "%~dp0\inleveren\bit.c"
+COPY /Y "%~dp0\code\bit.h" "%~dp0\inleveren\bit.h"
+COPY /Y "%~dp0\test\bit_test.c" "%~dp0\inleveren\bit_test.c"
+COPY /Y "%~dp0\code\header.c" "%~dp0\inleveren\header.c"
+COPY /Y "%~dp0\code\header.h" "%~dp0\inleveren\header.h"
+COPY /Y "%~dp0\test\header_test.c" "%~dp0\inleveren\header_test.c"
+COPY /Y "%~dp0\code\stegano.c" "%~dp0\inleveren\stegano.c"

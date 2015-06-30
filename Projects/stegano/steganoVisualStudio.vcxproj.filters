@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="code\bit.c">
+      <Filter>code</Filter>
+    </ClCompile>
+    <ClCompile Include="code\header.c">
+      <Filter>code</Filter>
+    </ClCompile>
+    <ClCompile Include="code\main.c">
+      <Filter>code</Filter>
+    </ClCompile>
+    <ClCompile Include="code\stegano.c">
+      <Filter>code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\prc22libs\ResourceDetector\resource_detector.c">
+      <Filter>ResourceDetector</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\prc22libs\ResourceDetector\list.c">
+      <Filter>ResourceDetector</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\prc22libs\Unity\unity.c">
+      <Filter>Unity</Filter>
+    </ClCompile>
+    <ClCompile Include="test\combined_test.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="code\bit.h">
+      <Filter>code</Filter>
+    </ClInclude>
+    <ClInclude Include="code\bmp.h">
+      <Filter>code</Filter>
+    </ClInclude>
+    <ClInclude Include="code\header.h">
+      <Filter>code</Filter>
+    </ClInclude>
+    <ClInclude Include="code\stegano.h">
+      <Filter>code</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\prc22libs\ResourceDetector\list.h">
+      <Filter>ResourceDetector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\prc22libs\ResourceDetector\resource_detector.h">
+      <Filter>ResourceDetector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\prc22libs\Unity\unity_internals.h">
+      <Filter>Unity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\prc22libs\Unity\unity.h">
+      <Filter>Unity</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="code">
+      <UniqueIdentifier>{312bb7b5-c582-4396-bc87-4d2e076addb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test">
+      <UniqueIdentifier>{a4e3cd1b-ec30-4e7b-a7e3-3a1ddb6ae153}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Unity">
+      <UniqueIdentifier>{7c52677a-78c2-4d85-b404-8547c3343886}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ResourceDetector">
+      <UniqueIdentifier>{c466e179-cf50-43a9-a4e7-2b9d34f4f024}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="test\input.txt">
+      <Filter>test</Filter>
+    </Text>
+    <Text Include="test\correct.txt">
+      <Filter>test</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="test\test.sh">
+      <Filter>test</Filter>
+    </None>
+  </ItemGroup>
+</Project>

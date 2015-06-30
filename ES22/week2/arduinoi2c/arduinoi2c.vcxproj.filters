@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="util">
+      <UniqueIdentifier>{76f63abe-dacf-423a-85f6-56b679a2a892}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{fca16c96-6b2d-4420-8213-b4384f5c0954}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\base">
+      <UniqueIdentifier>{e2622d19-c9a2-4303-b9db-dd5f9b6091d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\control">
+      <UniqueIdentifier>{3e069835-18c3-4c3b-94dd-d60022e034b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util\base">
+      <UniqueIdentifier>{e8eb9a4c-7837-452b-b932-91bfc904a0f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util\control">
+      <UniqueIdentifier>{5d86294d-daea-452f-9f61-1940656c5145}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\common">
+      <UniqueIdentifier>{819ca702-dc50-452e-ac77-1067ef483f76}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="common\someCommonLib.c">
+      <Filter>source\common</Filter>
+    </ClCompile>
+    <ClCompile Include="base\base.c">
+      <Filter>source\base</Filter>
+    </ClCompile>
+    <ClCompile Include="control\control.c">
+      <Filter>source\control</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="common\someCommonLib.h">
+      <Filter>source\common</Filter>
+    </ClInclude>
+    <ClInclude Include="base\base.h">
+      <Filter>source\base</Filter>
+    </ClInclude>
+    <ClInclude Include="control\control.h">
+      <Filter>source\control</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="base\BUILDUPLOAD.bat">
+      <Filter>util\base</Filter>
+    </None>
+    <None Include="base\makefile">
+      <Filter>util\base</Filter>
+    </None>
+    <None Include="control\BUILDUPLOAD.bat">
+      <Filter>util\control</Filter>
+    </None>
+    <None Include="control\makefile">
+      <Filter>util\control</Filter>
+    </None>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,11 @@
+/*
+	Main PROJECTNAME_test header file
+*/
+
+//Include Guard
+#ifndef PROJECTNAME_test_HEADER
+#define PROJECTNAME_test_HEADER
+void setUp(void);
+void tearDown(void);
+int main(void);
+#endif

@@ -1,0 +1,82 @@
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debug files
+*.dSYM/
+
+# other
+*.sdf
+*.suo
+[Dd]ebug/
+[Rr]elease/
+obj/
+!CreatePRC22Project.exe
+!CreateRP6Project.exe
+*.opensdf
+*.lss
+*.lst
+*.map
+*.sym
+*.o.d
+.dep/
+Projects/file/makefile
+Projects/stegano/stegano.vcxproj.user
+Projects/stegano/makefile
+Projects/stegano/~$signment3.doc
+Projects/stegano/mux_1.bmp_2.bmp_0.bmp
+Projects/stegano/demux_TextFontys.txt
+Projects/stegano/demux_ImageRedFerrari_4.bmp
+Projects/stegano/demux_ImageTrabant_8.bmp
+Projects/stegano/output.txt
+Projects/stegano/demux_ImageCitroen2Cv.bmp
+Projects/stegano/demux_ImageTrabant_1.bmp
+Projects/stegano/mux_ImageCitroen2Cv.bmp_TextFontys.txt.bmp
+Projects/stegano/mux_ImageTrabant.bmp_ImageRedFerrari.bmp_8.bmp
+Projects/stegano/mux_ImageTrabant.bmp_ImageRedFerrari.bmp_7.bmp
+Projects/stegano/mux_ImageTrabant.bmp_ImageRedFerrari.bmp_6.bmp
+Projects/stegano/mux_ImageTrabant.bmp_ImageRedFerrari.bmp_5.bmp
+Projects/stegano/demux_ImageRedFerrari_0.bmp
+Projects/stegano/demux_ImageRedFerrari_1.bmp
+Projects/stegano/demux_ImageRedFerrari_7.bmp
+Projects/stegano/mux_ImageTrabant.bmp_ImageRedFerrari.bmp_4.bmp
+Projects/stegano/mux_ImageTrabant.bmp_ImageRedFerrari.bmp_3.bmp
+Projects/stegano/mux_ImageTrabant.bmp_ImageRedFerrari.bmp_2.bmp
+Projects/stegano/mux_ImageTrabant.bmp_ImageRedFerrari.bmp_1.bmp
+Projects/stegano/mux_ImageTrabant.bmp_ImageRedFerrari.bmp_0.bmp
+Projects/stegano/demux_ImageTrabant_7.bmp
+Projects/stegano/demux_ImageTrabant_4.bmp
+Projects/stegano/demux_ImageTrabant_0.bmp
+Projects/stegano/demux_ImageRedFerrari_8.bmp
+*.pdb
+*.ilk
+*.pdb
+*.ilk
+Projects/stegano/stegano.ilk
+Projects/stegano/mux_ImageCitroen2Cv.bmp_TextFontys.dat.bmp

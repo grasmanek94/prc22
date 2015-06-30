@@ -1,0 +1,15 @@
+/*
+	Main PROJECTNAME source file
+*/
+
+//Default includes
+#include <stdio.h>
+
+//Custom includes
+#include "main.h"
+#include "PROJECTNAME.h"
+
+int main(void)
+{
+	return 0;
+}
